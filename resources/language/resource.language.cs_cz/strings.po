@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+
+# Settings
+
+msgctxt "#32011"
+msgid "General"
+msgstr "Obecné"
+
+msgctxt "#32012"
+msgid "Always play from beginning"
+msgstr "Vždy začít přehrávat od začátku"
+
+msgctxt "#32013"
+msgid "Playback start offset (seconds)"
+msgstr "Posunout zpět začátek přehrávání (sekundy)"
+
+# Notifications
+
+msgctxt "#32021"
+msgid "Connection failed, please check your network"
+msgstr "Připojení se nezdařilo, zkontrolujte nastavení sítě"
+
+msgctxt "#32022"
+msgid "Target device not compatible"
+msgstr "Cílové zařízení není kompatibilní"
+
+msgctxt "#32023"
+msgid "Network error"
+msgstr "Chyba sítě"
+
+msgctxt "#32024"
+msgid "Connection failed, check if HTTP remote control is allowed on target"
+msgstr "Připojení se nezdařilo, zkontrolujte, zda je povoleno ovládání cílového zařízení přes HTTP"
+
+msgctxt "#32025"
+msgid "Incorrect response from target device"
+msgstr "Cílové zařízení neodpovídá správně"
+
+msgctxt "#32026"
+msgid "Nothing is playing :-("
+msgstr "Nic se nepřehrává :-("

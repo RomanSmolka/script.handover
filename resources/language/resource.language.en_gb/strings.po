@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+# Settings
+
+msgctxt "#32011"
+msgid "General"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Always play from beginning"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Playback start offset (seconds)"
+msgstr ""
+
+# Notifications
+
+msgctxt "#32021"
+msgid "Connection failed, please check your network"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Target device not compatible"
+msgstr ""
+
+msgctxt "#32023"
+msgid "Network error"
+msgstr ""
+
+msgctxt "#32024"
+msgid "Connection failed"
+msgstr ""
+
+msgctxt "#32025"
+msgid "Incorrect response from target device"
+msgstr ""
+
+msgctxt "#32026"
+msgid "Nothing is playing :-("
+msgstr ""
