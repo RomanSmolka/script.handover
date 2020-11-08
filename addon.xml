@@ -8,10 +8,10 @@
 	<provides>executable</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-	<summary>Handover</summary>
-	<description>Cast currently playing item to another Kodi instance</description>
+	<summary lang="en_GB">Cast currently playing item to another Kodi instance</summary>
+	<summary lang="cs_CZ">Umožňuje odeslat právě přehrávaný soubor/stream na jiné Kodi zařízení</summary>
 	<platform>all</platform>
-	<source></source>
+	<source>https://github.com/RomanSmolka/script.handover.git</source>
 	<assets>
 		<icon>resources/icon.png</icon>
 	</assets>
