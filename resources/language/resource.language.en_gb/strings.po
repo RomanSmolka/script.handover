@@ -21,7 +21,7 @@ msgstr ""
 # Notifications
 
 msgctxt "#32021"
-msgid "Connection failed, please check your network"
+msgid "Connection failed, please check your network."
 msgstr ""
 
 msgctxt "#32022"
@@ -33,7 +33,7 @@ msgid "Network error"
 msgstr ""
 
 msgctxt "#32024"
-msgid "Connection failed"
+msgid "Connection failed, check if HTTP remote control is allowed on target."
 msgstr ""
 
 msgctxt "#32025"
@@ -42,4 +42,8 @@ msgstr ""
 
 msgctxt "#32026"
 msgid "Nothing is playing :-("
+msgstr ""
+
+msgctxt "#32027"
+msgid "No other Kodi devices found on network."
 msgstr ""

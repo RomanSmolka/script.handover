@@ -36,14 +36,18 @@ class HandoverUI():
 			for service in ssdp.resolved_devices:
 				addresses.append(service)
 				menu_items.append(ssdp.resolved_devices[service]['friendlyName'])
-
-			window = xbmcgui.Dialog()
-			menu = window.contextmenu(menu_items)
 		finally:
 			xbmc.executebuiltin('Dialog.Close(busydialognocancel)')
 
-		self.target = addresses[menu]
-		self.send()
+		if len(menu_items):
+			window = xbmcgui.Dialog()
+			menu = window.contextmenu(menu_items)
+
+			self.target = addresses[menu]
+			self.send()
+		else:
+			message = xbmcgui.Dialog()
+			message.ok('Handover', self.addon.getLocalizedString(32027))
 
 	def get_player_file(self):
 		player = xbmc.Player()
