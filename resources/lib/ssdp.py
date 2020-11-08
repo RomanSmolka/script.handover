@@ -1,3 +1,4 @@
+import xbmc
 import re
 import sys
 import socket
@@ -41,8 +42,9 @@ class SSDP_Provider():
 			while True:
 				data, addr = sock.recvfrom(1024)
 				result = service_re.search(data.decode('ASCII'))
-				if result and (result.group(1) in self.services) == False:
-					self.services.add(result.group(1))
+				url = result.group(1)
+				if result and (url not in self.services) and (urlparse(url).hostname != xbmc.getIPAddress()):
+					self.services.add(url)
 		except socket.timeout:
 			sock.close()
 
