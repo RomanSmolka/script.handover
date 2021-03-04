@@ -6,8 +6,8 @@ import requests
 import sys
 import math
 
-from lib.ssdp import SSDP_Provider
-from lib.helpers import display_message, log_error
+from .lib.ssdp import SSDP_Provider
+from .lib.helpers import display_message, log_error
 
 class HandoverUI():
 

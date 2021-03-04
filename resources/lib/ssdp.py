@@ -5,7 +5,7 @@ import socket
 import requests
 import xml.etree.ElementTree as ET
 
-from helpers import display_message, log_error
+from .helpers import display_message, log_error
 
 try:
 	from urlparse import urlparse

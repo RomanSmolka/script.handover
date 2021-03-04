@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="script.handover" version="1.0.1" name="Handover" provider-name="Roman Smolka">
+<addon id="script.handover" version="1.1.0" name="Handover" provider-name="Roman Smolka">
 <requires>
-	<import addon="xbmc.python" version="2.25.0"/>
+	<import addon="xbmc.python" version="3.0.0"/>
 	<import addon="script.module.requests" version="2.22.0"/>
 </requires>
 <extension point="xbmc.python.script" library="main.py">
